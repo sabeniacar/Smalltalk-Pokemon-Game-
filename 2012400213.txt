@@ -1,0 +1,19 @@
+How to start the game 
+
+1-open pharo
+2-load the package 2012400213 from 2012400213.st file
+3-open playground and transcript
+4- in playground create strategists and make them fight
+     some examples
+
+	ash:=AttackOnly new.
+	misty:=AttackOnly new.
+	brock:=Master2012400213 new.
+	james:=Master2012400213 new.
+     
+     decide who will play with who and see the results in transcript.
+
+	GameController player1:ash player2:brock isSpecialAction:true.
+	GameController player1:ash player2:misty isSpecialAction:false.
+	
+	
